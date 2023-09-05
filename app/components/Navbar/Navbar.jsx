@@ -12,6 +12,7 @@ import Avatar from '@mui/material/Avatar';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Link from 'next/link';
 
 const iconMap = {
   'Topics': '🚀',
@@ -126,13 +127,16 @@ function Navbar() {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Tooltip title={page} key={page}>
-                <IconButton
-                  size="large"
-                  color="inherit"
-                  onClick={handleCloseNavMenu}
-                >
-                  {iconMap[page]}
-                </IconButton>
+                <Link href={`/${page.toLowerCase()}`} passHref>
+                  <IconButton
+                    size="large"
+                    color="inherit"
+                    onClick={handleCloseNavMenu}
+                    component="button"
+                  >
+                    {iconMap[page]}
+                  </IconButton>
+                </Link>
               </Tooltip>
             ))}
           </Box>

@@ -12,7 +12,7 @@ import { Box } from '@mui/system';
 
 function ItemsList() {
   return (
-    <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
+    <List sx={{ width: '100%', maxWidth:'1200px', bgcolor: 'background.paper' }}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" />
@@ -41,6 +41,21 @@ function ItemsList() {
         <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
           <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
           <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
 
@@ -70,9 +85,20 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
@@ -101,9 +127,20 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
       <ListItem alignItems="flex-start">
@@ -131,9 +168,20 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
@@ -162,9 +210,20 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
@@ -193,9 +252,20 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
       <ListItem alignItems="flex-start">
@@ -223,9 +293,20 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
@@ -254,9 +335,20 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
@@ -285,12 +377,22 @@ function ItemsList() {
           }
         />
         </Link>
-        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
-          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        <Box sx={{ marginLeft: 'auto', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Avatar 
+              alt="Remy Sharp" 
+              // src="https://th.bing.com/th/id/R.e15bb9256f3d0b6cecc5bbd8e13ba3e8?rik=VECMHACyZippLw&pid=ImgRaw&r=0" 
+              style={{height: '25px', width: '25px'}}
+            />
+            <Typography variant="caption">
+              <Link href="/detail" style={{ textDecoration: 'underline' }}>
+                about 2 hours ago
+              </Link>
+            </Typography>
+          </div>
+          <Typography variant="caption">Cách config file js.config.js trong nodejs</Typography>
         </Box>
-      </ListItem>
-      
+      </ListItem>   
     </List>
   );
 }

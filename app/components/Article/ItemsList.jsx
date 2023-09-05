@@ -8,6 +8,7 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import Link from 'next/link';
+import { Box } from '@mui/system';
 
 function ItemsList() {
   return (
@@ -37,7 +38,12 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
+
       {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
@@ -64,6 +70,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
@@ -91,6 +101,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
@@ -117,6 +131,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
@@ -144,6 +162,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
@@ -171,6 +193,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
@@ -197,6 +223,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
@@ -224,6 +254,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
@@ -251,6 +285,10 @@ function ItemsList() {
           }
         />
         </Link>
+        <Box sx={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Topics: 1.5k</Typography>
+          <Typography variant="h7" style={{color: '#f5482f'}}>Posts: 2.0k</Typography>
+        </Box>
       </ListItem>
       
     </List>

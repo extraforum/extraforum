@@ -8,7 +8,8 @@ function Topics() {
     <div>
       <Navbar/>
       <br></br>
-      <Container maxWidth="1">
+      {/* <Container maxWidth="1"> */}
+      <Container fixed>
       <Breadcrumbs aria-label="breadcrumb">
         <Link underline="hover" color="primary" href="/">
             Home

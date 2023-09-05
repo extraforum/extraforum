@@ -31,7 +31,7 @@ function ItemsList() {
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
+      {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Travis Howard" src="https://pbs.twimg.com/profile_images/1122184484923662336/N9YFx3wD_400x400.png" />
@@ -52,7 +52,7 @@ function ItemsList() {
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
+      {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Cindy Baker" src="https://th.bing.com/th/id/R.083d315e12252c3d2ca31d31f6315365?rik=6bMIx9VtcN9TCQ&pid=ImgRaw&r=0" />
@@ -93,7 +93,7 @@ function ItemsList() {
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
+      {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Travis Howard" src="https://pbs.twimg.com/profile_images/1122184484923662336/N9YFx3wD_400x400.png" />
@@ -114,7 +114,7 @@ function ItemsList() {
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
+      {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Cindy Baker" src="https://th.bing.com/th/id/R.083d315e12252c3d2ca31d31f6315365?rik=6bMIx9VtcN9TCQ&pid=ImgRaw&r=0" />
@@ -155,7 +155,7 @@ function ItemsList() {
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
+      {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Travis Howard" src="https://pbs.twimg.com/profile_images/1122184484923662336/N9YFx3wD_400x400.png" />
@@ -176,7 +176,7 @@ function ItemsList() {
           }
         />
       </ListItem>
-      <Divider variant="inset" component="li" />
+      {/* <Divider variant="inset" component="li" /> */}
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
           <Avatar alt="Cindy Baker" src="https://th.bing.com/th/id/R.083d315e12252c3d2ca31d31f6315365?rik=6bMIx9VtcN9TCQ&pid=ImgRaw&r=0" />

@@ -1,4 +1,4 @@
-import { Breadcrumbs, Link, Typography } from "@mui/material"
+import { Breadcrumbs, Container, Link, Typography } from "@mui/material"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
 import ItemsList from './../components/Article/ItemsList';
@@ -8,6 +8,7 @@ function Topics() {
     <div>
       <Navbar/>
       <br></br>
+      <Container maxWidth="1">
       <Breadcrumbs aria-label="breadcrumb">
         <Link underline="hover" color="primary" href="/">
             Home
@@ -15,6 +16,8 @@ function Topics() {
         <Typography color="inherit">Categories</Typography>
       </Breadcrumbs>
       <ItemsList/>
+      </Container>
+      
       <Footer/>
     </div>
   )

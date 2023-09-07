@@ -10,13 +10,17 @@ function Topics() {
       <br></br>
       {/* <Container maxWidth="1"> */}
       <Container fixed>
-      <Breadcrumbs aria-label="breadcrumb">
-        <Link underline="hover" color="primary" href="/">
-            Home
-        </Link>
-        <Typography color="inherit">Categories</Typography>
-      </Breadcrumbs>
-      <ItemsList/>
+        <br></br>
+        <br></br>
+        <br></br>
+        
+        <Breadcrumbs aria-label="breadcrumb">
+          <Link underline="hover" color="primary" href="/">
+              Home
+          </Link>
+          <Typography color="inherit">Categories</Typography>
+        </Breadcrumbs>
+        <ItemsList/>
       </Container>
       
       <Footer/>

@@ -1,9 +1,9 @@
 import { Breadcrumbs, Container, Link, Typography } from "@mui/material"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
-import ItemsList from '../components/Article/ItemsList';
+import ItemsList from '../components/Category/ItemsList';
 
-function Topics() {
+function CategoriesPage() {
   return (
     <div>
       <Navbar/>
@@ -28,4 +28,4 @@ function Topics() {
   )
 }
 
-export default Topics
+export default CategoriesPage;

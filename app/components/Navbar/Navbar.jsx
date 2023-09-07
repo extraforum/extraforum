@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import Link from 'next/link';
 
 const iconMap = {
-  'Topics': '🚀',
+  'Category': '🚀',
   'Trending': '📈',
   'Recent': '🕛',
   'Unread': '📪',

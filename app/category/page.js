@@ -1,7 +1,7 @@
 import { Breadcrumbs, Container, Link, Typography } from "@mui/material"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navbar/Navbar"
-import ItemsList from './../components/Article/ItemsList';
+import ItemsList from '../components/Article/ItemsList';
 
 function Topics() {
   return (
